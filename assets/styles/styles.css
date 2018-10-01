@@ -1,0 +1,253 @@
+/* .portfoliolink {
+    float: right;
+    border-style: solid;
+    border-width: 2px;
+} */
+
+.contactlink {
+    /* float: right; */
+    
+}
+
+.Aligner-item {
+    margin-left: 20%;
+    margin-top: 10%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.Aligner-text {
+    margin-top: 5%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin-bottom: 100px;
+}
+
+.portfolioheader {
+    border-color: black;
+    border-bottom-style: solid;
+    text-align: center;
+    max-width: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-width: 2px;
+}
+
+.mainpage {
+    border-right-style: solid;
+    border-color: black;
+    padding-right: 15px;
+    border-width: 2px;
+}
+
+.contactlink {
+    border-right-style: solid;
+    border-color: black;
+    padding-right: 15px;
+    border-width: 2px;
+    margin-left: -25px;
+}
+
+.portfoliolink {
+    float: left;
+    margin-left: -20px;
+}
+
+.navbar {
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.rpggame {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    width: 250px;
+    height: 270px;
+}
+
+.wordguessimg {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    width: 250px;
+    height: 270px;
+}
+
+.triviagameimg {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom-style: solid;
+    width: 250px;
+    height: 270px;
+}
+
+.infogame {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom-style: solid;
+    width: 250px;
+    height: 270px;
+}
+
+.rockpaperscissorgame {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom-style: solid;
+    width: 250px;
+    height: 270px;
+}
+
+.aboutmemedia {
+    border-bottom-style: solid;
+    border-width: 2px;
+    width: 200px;
+}
+
+.contactmemedia {
+    border-bottom-style: solid;
+    border-width: 2px;
+    width: 240px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 320px) {
+
+    .wordguessimg {
+        height: 120px;
+        width: 100px;
+    }
+
+    .rpggame {
+        height: 120px;
+        width: 100px;
+    }
+
+    .infogame {
+        height: 120px;
+        width: 100px;
+    }
+
+    .triviagameimg {
+        height: 120px;
+        width: 100px;
+    }
+
+    .rockpaperscissorgame {
+        height: 120px;
+        width: 100px;
+    }
+
+    h1 {
+        font-size: 16px;
+        width: auto;
+    }
+
+    h2 {
+        font-size: 14px;
+        width: auto;
+    }
+    
+    .contactmemedia {
+        width: auto;
+        padding-top: 5px;
+        padding-bottom: 1px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+
+    .contactlink {
+        border-right-style: none;
+        font-size: 14px;
+        margin: 0px;
+        padding: 0%;
+        float: left;
+    }
+
+    .mainpage {
+        border-right-style: none;
+        font-size: 14px;
+        margin: 0%;
+        padding: 0%;
+        float: left;
+    }
+
+    .portfoliolink{
+        font-size: 14px;
+        margin: 0%;
+        padding: 0%;
+        float: left;
+    }
+    
+    .controls {
+        padding: 10%;
+        padding-top: 0%;
+    }
+
+    .Aligner-text {
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .Aligner-item {
+        height: 150px;
+        width: 150px;
+    }
+
+    .Aligner-text {
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .wordguessimg {
+        height: 170px;
+        width: 150px;
+    }
+
+    .rpggame {
+        height: 170px;
+        width: 150px;
+    }
+
+    .infogame {
+        height: 170px;
+        width: 150px;
+    }
+
+    .triviagameimg {
+        height: 170px;
+        width: 150px;
+    }
+
+    .rockpaperscissorgame {
+        height: 170px;
+        width: 150px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+
+    .controls {
+        padding: 10%;
+        padding-top: 0%;
+    }
+}
